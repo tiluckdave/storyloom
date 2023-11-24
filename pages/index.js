@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <main>
       {/* header */}
-      <div className='sticky z-30 top-0 flex justify-between items-center px-4 py-4 bg-gray-50 border-b-2'>
+      <div className='sticky z-40 top-0 flex justify-between items-center px-4 py-4 bg-gray-50 border-b-2'>
         <h1 className='font-bold font-sans text-3xl text-center w-full'>Story Loom</h1>
 
       </div>

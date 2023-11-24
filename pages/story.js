@@ -28,7 +28,7 @@ export default function Story() {
             </div>
 
             <div className='px-12 pt-8 bg-white'>
-                {story.story.map((line, index) => (
+                {story?.story.map((line, index) => (
                     <p key={index} className='pb-4 text-2xl font-normal text-gray-800'>
                         {line}
                     </p>

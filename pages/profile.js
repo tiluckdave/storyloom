@@ -101,12 +101,12 @@ export default function Profile() {
             {/* content */}
             <div className='mt-4 mb-4 p-4'>
                 <div className='mt-4 p-3 flex justify-between items-center'>
-                    <p class="mb-1 text-xl font-bold text-gray-700 ">Kid&apos;s Age</p>
+                    <p className="mb-1 text-xl font-bold text-gray-700 ">Kid&apos;s Age</p>
                     <input type="number" value={age} onChange={ageHandler} className='w-1/2 border-2 rounded-lg p-2' />
                 </div>
 
                 <div className='mt-4 p-3'>
-                    <p class="mb-1 text-xl font-bold text-gray-700 ">How does your kid behaves these days?</p>
+                    <p className="mb-1 text-xl font-bold text-gray-700 ">How does your kid behaves these days?</p>
                     <div className='flex flex-wrap gap-4 my-2'>
                         {behaviours.map((behaviour) => (
                             <div key={behaviour} className='flex gap-2 items-center text-xl font-normal text-white bg-gray-700 px-3 py-1.5 rounded-lg'>
@@ -122,7 +122,7 @@ export default function Profile() {
                 </div>
 
                 <div className='mt-4 p-3'>
-                    <p class="mb-1 text-xl font-bold text-gray-700 ">What animals does your kid like?</p>
+                    <p className="mb-1 text-xl font-bold text-gray-700 ">What animals does your kid like?</p>
                     <div className='flex flex-wrap gap-4 my-2'>
                         {animals.map((animal) => (
                             <div key={animal} className='flex gap-2 items-center text-xl font-normal text-white bg-gray-700 px-3 py-1.5 rounded-lg'>

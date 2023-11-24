@@ -3,7 +3,7 @@
   "short_name": "Story Loom",
   "theme_color": "#67e8f9",
   "background_color": "#fff",
-  "display": "fullScreen",
+  "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/login",

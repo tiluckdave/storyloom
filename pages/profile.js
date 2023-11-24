@@ -144,12 +144,12 @@ export default function Profile() {
 
 
 
-            <div className='fixed w-full z-30 bottom-0 flex justify-around items-center px-4 py-4 bg-gray-50 border-t-2'>
+            <div className='fixed w-full z-30 bottom-0 flex justify-around items-center px-4 py-2 bg-gray-50 border-t-2'>
                 <Link href="/" className='bg-gray-50 w-1/4 rounded-full p-2 flex justify-center items-center'>
-                    <Image src="/house.svg" width={40} height={40} alt="Profile Pic" />
+                    <Image src="/house.svg" width={32} height={32} alt="Profile Pic" />
                 </Link>
                 <Link href="/profile" className='bg-gray-200 w-1/4 rounded-full p-2 flex justify-center items-center'>
-                    <Image src="/profile.svg" width={32} height={32} alt="Profile Pic" />
+                    <Image src="/profile.svg" width={28} height={28} alt="Profile Pic" />
                 </Link>
             </div>
         </main>

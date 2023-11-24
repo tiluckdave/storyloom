@@ -78,6 +78,14 @@ export default function Home() {
             <svg width="24px" height="24px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path fill="#000000" d="M106.854 106.002a26.003 26.003 0 0 0-25.64 29.326c16 124 16 117.344 0 241.344a26.003 26.003 0 0 0 35.776 27.332l298-124a26.003 26.003 0 0 0 0-48.008l-298-124a26.003 26.003 0 0 0-10.136-1.994z" /></svg>
           </a>
         </div>
+        <div className='mt-8 p-3 border-2 rounded-lg relative'>
+          <p class="mb-1 font-xs text-gray-700 ">21st November 2023</p>
+          <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900">The Foolish Sage</h5>
+          <p class="mb-1 font-normal text-gray-800 ">Do not be taken in by the sweet words of a swindler</p>
+          <a href="#" class="absolute right-6 -bottom-8 justify-center items-center p-3 text-sm font-medium text-center text-white bg-cyan-300 rounded-full border-8 border-white">
+            <svg width="24px" height="24px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path fill="#000000" d="M106.854 106.002a26.003 26.003 0 0 0-25.64 29.326c16 124 16 117.344 0 241.344a26.003 26.003 0 0 0 35.776 27.332l298-124a26.003 26.003 0 0 0 0-48.008l-298-124a26.003 26.003 0 0 0-10.136-1.994z" /></svg>
+          </a>
+        </div>
       </div>
 
       <div className='sticky z-30 bottom-0 flex justify-around items-center px-4 py-2 bg-gray-50 border-t-2'>

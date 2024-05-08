@@ -75,7 +75,7 @@ export default function Home() {
         </h2>
         {
           stories.map((story) => (
-            <div key={story.uid} className='mt-4 p-3 border-2 rounded-lg relative'>
+            <div key={story.uid} className='mt-6 p-3 border-2 rounded-lg relative'>
               <p className="mb-1 font-xs text-gray-700 ">{story.date}</p>
               <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900">{story.title}</h5>
               <p className="mb-1 font-normal text-gray-800 ">{story.story[ 0 ]}</p>

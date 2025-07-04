@@ -1,7 +1,19 @@
 {
   "$schema": "https://turborepo.com/schema.json",
-  "globalDependencies": [
-    ".env"
+  "globalEnv": [
+    "AWS_ACCESS_KEY_ID",
+    "AWS_SECRET_ACCESS_KEY",
+    "AWS_REGION",
+    "DYNAMODB_TABLE_PREFIX",
+    "NEXTAUTH_URL",
+    "NEXTAUTH_SECRET",
+    "SMTP_HOST",
+    "SMTP_PORT",
+    "SMTP_USER",
+    "SMTP_PASSWORD",
+    "EMAIL_FROM",
+    "GOOGLE_CLIENT_ID",
+    "GOOGLE_CLIENT_SECRET"
   ],
   "tasks": {
     "build": {

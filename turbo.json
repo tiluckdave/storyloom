@@ -10,10 +10,13 @@
     "SMTP_HOST",
     "SMTP_PORT",
     "SMTP_USER",
-    "SMTP_PASSWORD",
+    "SMTP_PASS",
     "EMAIL_FROM",
     "GOOGLE_CLIENT_ID",
     "GOOGLE_CLIENT_SECRET"
+  ],
+  "globalDependencies": [
+    ".env"
   ],
   "tasks": {
     "build": {
